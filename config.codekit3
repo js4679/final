@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -45,6 +37,22 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
+	"/dev/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/header.html",
+		"oF": 0
 		},
 	"/dev/index.kit": {
 		"cB": 1,
@@ -290,6 +298,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
+		"oF": 0
+		},
+	"/dev/section-5.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-5.html",
 		"oF": 0
 		},
 	"/README.md": {
