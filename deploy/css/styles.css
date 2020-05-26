@@ -386,15 +386,79 @@ textarea {
 /* =============
     Section 1
 ============= */
+@media (min-width: 1200px) {
+  #section-1 > div {
+    display: grid;
+    grid-template-areas: ". section-1 .";
+    grid-template-columns: auto 1200px auto; } }
+
+#section-1 > div aside {
+  background-image: url("../img/section-1-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 181px; }
+  @media (min-width: 768px) {
+    #section-1 > div aside {
+      height: 490px; } }
+  @media (min-width: 1200px) {
+    #section-1 > div aside {
+      height: 490px; } }
 /* =============
     Section 2
 ============= */
+#section-2 > div {
+  padding: 30px; }
+  @media (min-width: 768px) {
+    #section-2 > div {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "section-2"; } }
+  #section-2 > div #specials {
+    background-image: url("../img/section-2-specials.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 110px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #section-2 > div #specials {
+        height: 242px; } }
+  #section-2 > div #contact-us {
+    background-image: url("../img/section-2-contactus.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 110px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #section-2 > div #contact-us {
+        height: 242px; } }
 /* =============
     Section 3
 ============= */
+#section-3 {
+  background-color: #CBD2C2;
+  text-align: center;
+  padding: 25px;
+  color: #707767;
+  height: 490px; }
+
 /* =============
     Section 4
 ============= */
+#section-4 {
+  background-image: url("../img/section-4-dessert.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 770px;
+  text-align: center;
+  color: #fff; }
+
 /* =============
     Section 5
 ============= */
+#section-5 {
+  background-image: url("../img/section-5-mission.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 525px;
+  color: #fff;
+  text-align: center; }

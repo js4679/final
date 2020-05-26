@@ -2,8 +2,11 @@
     Section 4
 ============= */
 #section-4{
-    .grid-content{
-        
-    }
+    background-image: url('../img/section-4-dessert.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 770px;
+    text-align: center;
+    color: $white;
 
 }

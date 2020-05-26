@@ -2,8 +2,32 @@
     Section 1
 ============= */
 #section-1{
-    .grid-content{
-        
+    >div{
+
+        @include xl {
+            display: grid;
+            grid-template-areas: ". section-1 .";
+            grid-template-columns: auto 1200px auto;
+        }
+
+        aside{
+            background-image: url('../img/section-1-hero.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 181px;
+
+            @include md{
+                height: 490px;
+            }
+
+            @include xl{
+                height: 490px;
+            }
+        }
+
+        h1{
+            
+        }
     }
 
 }

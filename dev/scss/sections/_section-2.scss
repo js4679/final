@@ -2,8 +2,39 @@
     Section 2
 ============= */
 #section-2{
-    .grid-content{
-        
+    >div{
+        padding: 30px;
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "section-2";
+        }
+
+        #specials{
+            background-image: url('../img/section-2-specials.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 110px;
+            text-align: center;
+
+            @include md{
+                height: 242px;
+            }
+        }
+
+        #contact-us{
+            background-image: url('../img/section-2-contactus.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 110px;
+            text-align: center;
+
+            @include md{
+                height: 242px;
+            }
+
+        }
     }
 
 }
