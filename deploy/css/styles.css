@@ -380,29 +380,47 @@ textarea {
 /* =============
     Header
 ============= */
+#header {
+  background-color: #23315B; }
+  #header > div #logo-container {
+    text-align: center; }
+  #header > div #burger-container {
+    color: #fff;
+    text-decoration: none; }
+  #header > div #nav-container {
+    text-decoration: none; }
+
 /* =============
     Footer
 ============= */
+#footer {
+  background-color: #23315B; }
+  #footer > div h2 {
+    text-align: center; }
+
 /* =============
     Section 1
 ============= */
-@media (min-width: 1200px) {
-  #section-1 > div {
-    display: grid;
-    grid-template-areas: ". section-1 .";
-    grid-template-columns: auto 1200px auto; } }
-
-#section-1 > div aside {
+#section-1 > div {
   background-image: url("../img/section-1-hero.jpg");
   background-position: center;
   background-size: cover;
   height: 181px; }
+  @media (min-width: 1200px) {
+    #section-1 > div {
+      display: grid;
+      grid-template-areas: ". section-1 .";
+      grid-template-columns: auto 1200px auto; } }
   @media (min-width: 768px) {
-    #section-1 > div aside {
+    #section-1 > div {
       height: 490px; } }
   @media (min-width: 1200px) {
-    #section-1 > div aside {
+    #section-1 > div {
       height: 490px; } }
+  #section-1 > div h1 {
+    color: #fff;
+    text-align: center; }
+
 /* =============
     Section 2
 ============= */

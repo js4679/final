@@ -10,23 +10,23 @@
             grid-template-columns: auto 1200px auto;
         }
 
-        aside{
-            background-image: url('../img/section-1-hero.jpg');
-            background-position: center;
-            background-size: cover;
-            height: 181px;
+        
+        background-image: url('../img/section-1-hero.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 181px;
 
-            @include md{
-                height: 490px;
-            }
-
-            @include xl{
-                height: 490px;
-            }
+        @include md{
+            height: 490px;
         }
 
+        @include xl{
+            height: 490px;
+        }
+        
         h1{
-            
+            color: $white;
+            text-align: center;
         }
     }
 

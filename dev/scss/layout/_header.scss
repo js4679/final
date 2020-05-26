@@ -1,3 +1,23 @@
 /* =============
     Header
 ============= */
+#header{
+    background-color: $navy;
+
+    >div{
+
+        #logo-container{
+            text-align: center;
+        }
+
+        #burger-container{
+            color: $white;
+            text-decoration: none;
+        }
+
+        #nav-container{
+            text-decoration: none;
+        }
+    }
+}
+
