@@ -4,7 +4,22 @@
 #section-3{
     background-color: $lightgreen;
     text-align: center;
-    padding: 25px;
+    padding: 50px;
     color: $darkgreen;
     height: 490px;
+
+    >div{
+
+        #location-1{
+            padding: 50px;
+        }
+
+        #location-2{
+            padding: 50px;
+        }
+
+        #location-3{
+            padding: 50px;
+        }
+    }
 }
