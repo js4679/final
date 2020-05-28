@@ -19,6 +19,134 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/fonts/Archer-Bold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Bold.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-BoldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-BoldItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-Book.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Book.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-BookItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-BookItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-ExtraLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-ExtraLight.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-ExtraLightItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-ExtraLightItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-Hairline.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Hairline.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-HairlineItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-HairlineItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-Light.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Light.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-LightItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-LightItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-Medium.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Medium.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-MediumItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-MediumItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-Semibold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Semibold.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-SemiboldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-SemiboldItalic.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-Thin.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-Thin.otf",
+		"oF": 0
+		},
+	"/deploy/fonts/Archer-ThinItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/fonts/Archer-ThinItalic.otf",
+		"oF": 0
+		},
 	"/deploy/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
