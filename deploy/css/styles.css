@@ -440,6 +440,15 @@ textarea {
     @media (min-width: 768px) {
       #section-2 > div #specials {
         height: 242px; } }
+    #section-2 > div #specials h1 {
+      border-radius: 8px;
+      display: inline-block;
+      background-color: rgba(35, 49, 91, 0.7);
+      color: #fff;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px; }
   #section-2 > div #contact-us {
     background-image: url("../img/section-2-contactus.jpg");
     background-position: center;
@@ -449,6 +458,16 @@ textarea {
     @media (min-width: 768px) {
       #section-2 > div #contact-us {
         height: 242px; } }
+    #section-2 > div #contact-us h1 {
+      border-radius: 8px;
+      display: inline-block;
+      background-color: rgba(35, 49, 91, 0.7);
+      color: #fff;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px; }
+
 /* =============
     Section 3
 ============= */
@@ -466,9 +485,14 @@ textarea {
   background-image: url("../img/section-4-dessert.jpg");
   background-position: center;
   background-size: cover;
-  height: 770px;
-  text-align: center;
-  color: #fff; }
+  height: 770px; }
+  #section-4 > div #text-card {
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgba(35, 49, 91, 0.85);
+    padding: 50px 10px; }
 
 /* =============
     Section 5
@@ -477,6 +501,11 @@ textarea {
   background-image: url("../img/section-5-mission.jpg");
   background-position: center;
   background-size: cover;
-  height: 525px;
-  color: #fff;
-  text-align: center; }
+  height: 525px; }
+  #section-5 > div #text-card {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgba(35, 49, 91, 0.85);
+    padding: 50px 20px; }

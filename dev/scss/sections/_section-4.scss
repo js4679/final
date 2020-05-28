@@ -6,7 +6,18 @@
     background-position: center;
     background-size: cover;
     height: 770px;
-    text-align: center;
-    color: $white;
+
+    >div{
+
+        #text-card{
+            text-align: center;
+            color: $white;
+            display: inline-block;
+            border-radius: 8px;
+            background-color: $lightnavy;
+            padding: 50px 10px;
+        }
+    }
+    
 
 }
