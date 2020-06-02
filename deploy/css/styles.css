@@ -2,6 +2,22 @@
   font-family: 'Archer-Bold';
   src: url("../fonts/Archer-Bold.otf"); }
 
+@font-face {
+  font-family: 'Archer-Book';
+  src: url("../fonts/Archer-Book.otf"); }
+
+@font-face {
+  font-family: 'Archer-Medium';
+  src: url("../fonts/Archer-Medium.otf"); }
+
+@font-face {
+  font-family: 'Archer-Semibold';
+  src: url("../fonts/Archer-Semibold.otf"); }
+
+@font-face {
+  font-family: 'Archer-SemiboldItalic';
+  src: url("../fonts/Archer-SemiboldItalic.otf"); }
+
 /* =============
     Mixins
 ============= */
@@ -360,6 +376,36 @@ p {
 .section-title {
   font-weight: 300; }
 
+#section-1 h1 {
+  font-family: 'Archer-SemiboldItalic', sans-serif; }
+
+#section-2 h1 {
+  font-family: 'Archer-Book', sans-serif; }
+
+#section-3 h1 {
+  font-family: 'Archer-Semibold', sans-serif; }
+
+#section-3 h2 {
+  font-family: 'Archer-Medium', sans-serif; }
+
+#section-3 p {
+  font-family: 'Archer-Book', sans-serif; }
+
+#section-4 h1 {
+  font-family: 'Archer-SemiboldItalic', sans-serif; }
+
+#section-4 h2 {
+  font-family: 'Archer-Medium', sans-serif; }
+
+#section-4 p {
+  font-family: 'Archer-Book', sans-serif; }
+
+#section-5 h1 {
+  font-family: 'Archer-SemiboldItalic', sans-serif; }
+
+#section-5 p {
+  font-family: 'Archer-Book', sans-serif; }
+
 /* =============
     Buttons
 ============= */
@@ -512,10 +558,21 @@ textarea {
   background-position: center;
   background-size: cover;
   height: 525px; }
-  #section-5 > div #text-card {
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    border-radius: 8px;
-    background-color: rgba(35, 49, 91, 0.85);
-    padding: 50px 20px; }
+  #section-5 > div {
+    padding-top: 130px;
+    padding-bottom: 105px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    #section-5 > div #text-card {
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 8px;
+      background-color: rgba(35, 49, 91, 0.85);
+      padding: 50px 20px; }
+      #section-5 > div #text-card h1 {
+        font-size: 1.5rem;
+        line-height: 1.5rem; }
+      #section-5 > div #text-card p {
+        font-size: 0.9375rem;
+        line-height: 0.9375rem; }

@@ -8,6 +8,10 @@
     height: 525px;
 
     >div{
+        padding-top: 130px;
+        padding-bottom: 105px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         #text-card{
             color: $white;
@@ -16,6 +20,15 @@
             border-radius: 8px;
             background-color: $lightnavy;
             padding: 50px 20px;
+
+            h1{
+                font-size: rem-calc(24);
+                line-height: rem-calc(24);
+            }
+            p{
+                font-size: rem-calc(15);
+                line-height: rem-calc(15);
+            }
         }
 
     }
