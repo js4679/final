@@ -457,9 +457,13 @@ textarea {
     Header
 ============= */
 #header {
-  background-color: #23315B; }
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
   #header > div #logo-container {
-    text-align: center; }
+    text-align: center;
+    background-color: #23315B; }
   #header > div #burger-container {
     color: #fff;
     text-decoration: none; }
