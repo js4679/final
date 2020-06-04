@@ -8,7 +8,14 @@
     color: $darkgreen;
     height: 490px;
 
+  
+
     >div{
+        @include md{
+            display: flex;
+            height: 248px;
+            text-align: center;
+        }
 
         #location-1{
             padding: 50px;

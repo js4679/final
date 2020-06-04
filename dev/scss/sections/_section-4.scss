@@ -8,7 +8,12 @@
     height: 770px;
 
     >div{
+        padding-top: 370px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
         
+
 
         #text-card{
             text-align: center;
@@ -17,6 +22,7 @@
             border-radius: 8px;
             background-color: $lightnavy;
             padding: 50px 10px;
+            height: 220px;
         }
     }
     
