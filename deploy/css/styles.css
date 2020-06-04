@@ -437,7 +437,9 @@ textarea {
       display: flex;
       justify-content: flex-end; } }
   #nav-container ul li {
-    margin-bottom: 20px; }
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
     @media (min-width: 992px) {
       #nav-container ul li {
         align-items: center;
@@ -606,7 +608,7 @@ textarea {
       height: 205px; }
       #section-5 > div #text-card h1 {
         font-size: 1.5rem;
-        line-height: 1.5rem; }
+        line-height: 1.875rem; }
       #section-5 > div #text-card p {
         font-size: 0.9375rem;
-        line-height: 0.9375rem; }
+        line-height: 1.4375rem; }
