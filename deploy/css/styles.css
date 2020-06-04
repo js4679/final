@@ -427,6 +427,30 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  width: 50%;
+  text-align: left;
+  background-color: #CBD2C2; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-end; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        align-items: center;
+        display: flex;
+        margin: 0 30px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #23315B;
+      text-decoration: none; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #fff; }
+
 /* =============
     Header
 ============= */
@@ -436,8 +460,6 @@ textarea {
     text-align: center; }
   #header > div #burger-container {
     color: #fff;
-    text-decoration: none; }
-  #header > div #nav-container {
     text-decoration: none; }
 
 /* =============
