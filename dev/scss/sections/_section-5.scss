@@ -13,6 +13,13 @@
         padding-left: 20px;
         padding-right: 20px;
 
+        @include md{
+            height: 250px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: ". text-card";   
+        }
+
         #text-card{
             color: $white;
             text-align: center;
@@ -21,6 +28,8 @@
             background-color: $lightnavy;
             padding: 50px 20px;
             height: 205px;
+
+            grid-area: text-card;
 
             h1{
                 font-size: rem-calc(24);

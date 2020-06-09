@@ -499,7 +499,8 @@ textarea {
       height: 490px; } }
   #section-1 > div h1 {
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    padding-top: 80px; }
 
 /* =============
     Section 2
@@ -634,6 +635,12 @@ textarea {
     padding-bottom: 105px;
     padding-left: 20px;
     padding-right: 20px; }
+    @media (min-width: 768px) {
+      #section-5 > div {
+        height: 250px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: ". text-card"; } }
     #section-5 > div #text-card {
       color: #fff;
       text-align: center;
@@ -641,7 +648,8 @@ textarea {
       border-radius: 8px;
       background-color: rgba(35, 49, 91, 0.85);
       padding: 50px 20px;
-      height: 205px; }
+      height: 205px;
+      grid-area: text-card; }
       #section-5 > div #text-card h1 {
         font-size: 1.5rem;
         line-height: 1.875rem; }
