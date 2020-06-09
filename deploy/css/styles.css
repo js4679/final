@@ -569,7 +569,8 @@ textarea {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #section-3 {
-      height: 248px; } }
+      height: 248px;
+      align-items: center; } }
   @media (min-width: 768px) {
     #section-3 > div {
       display: flex;
