@@ -6,12 +6,15 @@
     background-position: center;
     background-size: cover;
     height: 770px;
+    margin-bottom: 30px;
+
+    
 
     >div{
         padding-top: 370px;
         padding-bottom: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
         
 
 
@@ -23,6 +26,14 @@
             background-color: $lightnavy;
             padding: 50px 10px;
             height: 220px;
+
+            @include md{
+                height: 250px;
+                
+                // margin-right: 430px;
+                // margin-bottom: 100px;
+                
+            }
         }
     }
     

@@ -7,13 +7,18 @@
     padding: 50px;
     color: $darkgreen;
     height: 490px;
+    margin-bottom: 30px;
+
+    @include md{
+        height: 248px;
+        
+    }
 
   
 
     >div{
         @include md{
             display: flex;
-            height: 248px;
             text-align: center;
         }
 
