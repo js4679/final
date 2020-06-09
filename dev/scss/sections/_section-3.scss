@@ -17,21 +17,36 @@
   
 
     >div{
+
+        
         @include md{
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-areas: "title title title"
+                                 "location-1 location-2 location-3";
             text-align: center;
+
+        }
+
+        #title{
+            grid-area: title;
         }
 
         #location-1{
             padding: 50px;
+            grid-area: location-1;
         }
 
         #location-2{
             padding: 50px;
+            grid-area: location-2;
         }
 
         #location-3{
             padding: 50px;
+            grid-area: location-3;
         }
+
+       
     }
 }

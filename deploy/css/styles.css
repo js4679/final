@@ -474,7 +474,8 @@ textarea {
 #footer {
   background-color: #23315B; }
   #footer > div h2 {
-    text-align: center; }
+    text-align: center;
+    color: #fff; }
 
 /* =============
     Section 1
@@ -483,7 +484,8 @@ textarea {
   background-image: url("../img/section-1-hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 181px; }
+  height: 200px;
+  margin-top: 173px; }
   @media (min-width: 1200px) {
     #section-1 > div {
       display: grid;
@@ -573,14 +575,21 @@ textarea {
       align-items: center; } }
   @media (min-width: 768px) {
     #section-3 > div {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "title title title" "location-1 location-2 location-3";
       text-align: center; } }
+  #section-3 > div #title {
+    grid-area: title; }
   #section-3 > div #location-1 {
-    padding: 50px; }
+    padding: 50px;
+    grid-area: location-1; }
   #section-3 > div #location-2 {
-    padding: 50px; }
+    padding: 50px;
+    grid-area: location-2; }
   #section-3 > div #location-3 {
-    padding: 50px; }
+    padding: 50px;
+    grid-area: location-3; }
 
 /* =============
     Section 4
@@ -596,6 +605,12 @@ textarea {
     padding-bottom: 25px;
     padding-left: 70px;
     padding-right: 70px; }
+    @media (min-width: 768px) {
+      #section-4 > div {
+        height: 250px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "text-card . "; } }
     #section-4 > div #text-card {
       text-align: center;
       color: #fff;
@@ -603,10 +618,9 @@ textarea {
       border-radius: 8px;
       background-color: rgba(35, 49, 91, 0.85);
       padding: 50px 10px;
-      height: 220px; }
-      @media (min-width: 768px) {
-        #section-4 > div #text-card {
-          height: 250px; } }
+      height: 220px;
+      grid-area: text-card; }
+
 /* =============
     Section 5
 ============= */

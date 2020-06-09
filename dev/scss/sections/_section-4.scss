@@ -2,6 +2,9 @@
     Section 4
 ============= */
 #section-4{
+
+
+
     background-image: url('../img/section-4-dessert.jpg');
     background-position: center;
     background-size: cover;
@@ -15,6 +18,13 @@
         padding-bottom: 25px;
         padding-left: 70px;
         padding-right: 70px;
+
+        @include md{
+            height: 250px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "text-card . ";   
+        }
         
 
 
@@ -27,13 +37,11 @@
             padding: 50px 10px;
             height: 220px;
 
-            @include md{
-                height: 250px;
-                
-                // margin-right: 430px;
-                // margin-bottom: 100px;
-                
-            }
+        
+            grid-area: text-card;
+            
+
+           
         }
     }
     
