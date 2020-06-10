@@ -39,10 +39,18 @@
         h2{
             font-size: rem-calc(18);
             padding-bottom: 15px;
+
+            @include xl{
+                font-size: rem-calc(21);
+            }
         }
 
         p{
             font-size: rem-cal(12);
+
+            @include xl{
+                font-size: rem-calc(16);
+            }
             
         }
 
@@ -55,6 +63,9 @@
             }
             h1{
                 font-size: rem-calc(24);
+                @include xl{
+                    font-size: rem-calc(36);
+                }
             }
         }
 

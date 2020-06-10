@@ -638,8 +638,14 @@ textarea {
   #section-3 > div h2 {
     font-size: 1.125rem;
     padding-bottom: 15px; }
+    @media (min-width: 1200px) {
+      #section-3 > div h2 {
+        font-size: 1.3125rem; } }
   #section-3 > div p {
     font-size: rem-cal(12); }
+    @media (min-width: 1200px) {
+      #section-3 > div p {
+        font-size: 1rem; } }
   #section-3 > div #title {
     grid-area: title; }
     #section-3 > div #title i {
@@ -647,6 +653,9 @@ textarea {
       margin-bottom: 15px; }
     #section-3 > div #title h1 {
       font-size: 1.5rem; }
+      @media (min-width: 1200px) {
+        #section-3 > div #title h1 {
+          font-size: 2.25rem; } }
   #section-3 > div #location-1 {
     padding: 40px;
     grid-area: location-1; }
