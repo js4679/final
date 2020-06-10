@@ -47,6 +47,14 @@
 
                 @include md{
                     margin-top: 80px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+
+                @include xl{
+                    font-size: rem-calc(36);
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
             }
         }
@@ -82,6 +90,14 @@
 
                 @include md{
                     margin-top: 80px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+
+                @include xl{
+                    font-size: rem-calc(36);
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
             }
 
