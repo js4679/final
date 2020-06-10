@@ -5,19 +5,14 @@
     
     >div{
 
-        @include xl {
-            display: grid;
-            grid-template-areas: ". section-1 .";
-            grid-template-columns: auto 1200px auto;
-        }
-
         
         background-image: url('../img/section-1-hero.jpg');
         background-position: center;
         background-size: cover;
         height: 200px;
         margin-top: 173px;
-    
+        
+        
 
         @include md{
             height: 490px;
@@ -25,12 +20,17 @@
 
         @include xl{
             height: 490px;
+            
         }
         
         h1{
             color: $white;
             text-align: center;
             padding-top: 80px;
+
+            @include xl{
+                padding: 200px;
+            }
         }
     }
 

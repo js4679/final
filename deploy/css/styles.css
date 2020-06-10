@@ -486,11 +486,6 @@ textarea {
   background-size: cover;
   height: 200px;
   margin-top: 173px; }
-  @media (min-width: 1200px) {
-    #section-1 > div {
-      display: grid;
-      grid-template-areas: ". section-1 .";
-      grid-template-columns: auto 1200px auto; } }
   @media (min-width: 768px) {
     #section-1 > div {
       height: 490px; } }
@@ -501,7 +496,9 @@ textarea {
     color: #fff;
     text-align: center;
     padding-top: 80px; }
-
+    @media (min-width: 1200px) {
+      #section-1 > div h1 {
+        padding: 200px; } }
 /* =============
     Section 2
 ============= */
@@ -512,6 +509,10 @@ textarea {
       display: grid;
       grid-template-columns: 50% 50%;
       grid-template-areas: "section-2"; } }
+  @media (min-width: 1200px) {
+    #section-2 > div {
+      padding-left: 0px;
+      padding-right: 0px; } }
   #section-2 > div #specials {
     background-image: url("../img/section-2-specials.jpg");
     background-position: center;
@@ -579,7 +580,13 @@ textarea {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "title title title" "location-1 location-2 location-3";
-      text-align: center; } }
+      text-align: center;
+      padding-left: 100px;
+      padding-right: 100px; } }
+  @media (min-width: 1200px) {
+    #section-3 > div {
+      padding-left: 150px;
+      padding-right: 150px; } }
   #section-3 > div #title {
     grid-area: title; }
   #section-3 > div #location-1 {

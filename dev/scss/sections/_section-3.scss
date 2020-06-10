@@ -25,7 +25,14 @@
             grid-template-areas: "title title title"
                                  "location-1 location-2 location-3";
             text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
 
+        }
+
+        @include xl{
+            padding-left: 150px;
+            padding-right: 150px;
         }
 
         #title{
