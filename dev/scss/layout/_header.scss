@@ -21,6 +21,8 @@
     }
 
     >div{
+
+        
         
         #logo-container{
             text-align: center;
@@ -39,6 +41,18 @@
         #burger-container{
             color: $white;
             text-decoration: none;
+            align-items: center;
+            display: flex;
+            
+
+            @include md {
+                display: none !important;
+            }
+
+            i {
+                cursor: pointer;
+                font-size: rem-calc(30);
+            }
         }
 
         

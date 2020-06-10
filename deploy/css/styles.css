@@ -463,8 +463,11 @@ textarea {
         #nav-container ul li a:active {
           color: #CBD2C2; } }
   #nav-container ul li#nav-logo {
-    width: 200px; }
-
+    display: none; }
+    @media (min-width: 768px) {
+      #nav-container ul li#nav-logo {
+        display: block;
+        width: 200px; } }
 /* =============
     Header
 ============= */
@@ -489,7 +492,15 @@ textarea {
         top: -45px; } }
   #header > div #burger-container {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    align-items: center;
+    display: flex; }
+    @media (min-width: 768px) {
+      #header > div #burger-container {
+        display: none !important; } }
+    #header > div #burger-container i {
+      cursor: pointer;
+      font-size: 1.875rem; }
 
 /* =============
     Footer
