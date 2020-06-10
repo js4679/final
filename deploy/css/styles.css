@@ -474,7 +474,7 @@ textarea {
     #header {
       left: 0;
       position: fixed;
-      top: 200px;
+      top: 50px;
       width: 100%; } }
   #header > div #logo-container {
     text-align: center;
@@ -558,8 +558,7 @@ textarea {
   background-image: url("../img/section-1-hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 200px;
-  margin-top: 173px; }
+  height: 200px; }
   @media (min-width: 768px) {
     #section-1 > div {
       height: 490px; } }
