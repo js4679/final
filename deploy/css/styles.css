@@ -622,15 +622,14 @@ textarea {
   @media (min-width: 768px) {
     #section-3 {
       height: 248px;
-      align-items: center; } }
+      align-items: center;
+      margin-bottom: 30px; } }
   @media (min-width: 768px) {
     #section-3 > div {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "title title title" "location-1 location-2 location-3";
-      text-align: center;
-      padding-left: 100px;
-      padding-right: 100px; } }
+      text-align: center; } }
   @media (min-width: 1200px) {
     #section-3 > div {
       padding-left: 150px;
@@ -685,7 +684,19 @@ textarea {
         height: 250px;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-areas: "text-card . "; } }
+        grid-template-areas: "text-card . ";
+        padding-bottom: 250px;
+        padding-top: 150px;
+        padding-left: 90px;
+        padding-right: 20px; } }
+    @media (min-width: 1200px) {
+      #section-4 > div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "text-card . ";
+        padding-bottom: 250px;
+        padding-top: 150px;
+        padding-left: 90px; } }
     #section-4 > div #text-card {
       text-align: center;
       color: #fff;
@@ -695,6 +706,16 @@ textarea {
       padding: 50px 20px;
       height: 220px;
       grid-area: text-card; }
+      @media (min-width: 768px) {
+        #section-4 > div #text-card {
+          margin: 100px 0px;
+          padding-left: 30px;
+          padding-right: 30px; } }
+      @media (min-width: 1200px) {
+        #section-4 > div #text-card {
+          height: 290px;
+          margin: 50px 0px;
+          margin-right: 90px; } }
       #section-4 > div #text-card h1 {
         font-size: 1.5rem;
         line-height: 1.875rem;
@@ -705,7 +726,15 @@ textarea {
       #section-4 > div #text-card p {
         font-size: 1.125rem;
         line-height: 1.4375rem; }
-
+        @media (min-width: 768px) {
+          #section-4 > div #text-card p {
+            padding-right: 50px;
+            padding-left: 50px; } }
+        @media (min-width: 1200px) {
+          #section-4 > div #text-card p {
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-top: 20px; } }
 /* =============
     Section 5
 ============= */

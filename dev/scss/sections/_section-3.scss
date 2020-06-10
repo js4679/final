@@ -13,6 +13,7 @@
     @include md{
         height: 248px;
         align-items: center;
+        margin-bottom: 30px;
     }
 
   
@@ -26,8 +27,7 @@
             grid-template-areas: "title title title"
                                  "location-1 location-2 location-3";
             text-align: center;
-            padding-left: 100px;
-            padding-right: 100px;
+            
 
         }
 
