@@ -362,7 +362,40 @@ ul {
 /* =============
     Typography
 ============= */
-body {
+body #nav-container {
+  font-family: 'Archer-Semibold', sans-serif; }
+
+body #section-1 h1 {
+  font-family: 'Archer-SemiboldItalic', sans-serif; }
+
+body #section-2 h1 {
+  font-family: 'Archer-Book', sans-serif; }
+
+body #section-3 h1 {
+  font-family: 'Archer-Semibold', sans-serif; }
+
+body #section-3 h2 {
+  font-family: 'Archer-Medium', sans-serif; }
+
+body #section-3 p {
+  font-family: 'Archer-Book', sans-serif; }
+
+body #section-4 h1 {
+  font-family: 'Archer-SemiboldItalic', sans-serif; }
+
+body #section-4 h2 {
+  font-family: 'Archer-Medium', sans-serif; }
+
+body #section-4 p {
+  font-family: 'Archer-Book', sans-serif; }
+
+body #section-5 h1 {
+  font-family: 'Archer-SemiboldItalic', sans-serif; }
+
+body #section-5 p {
+  font-family: 'Archer-Book', sans-serif; }
+
+body #footer h2 {
   font-family: 'Archer-Bold', sans-serif; }
 
 h1, h2, h3, h4 {
@@ -372,42 +405,6 @@ h1, h2, h3, h4 {
 p {
   margin: 0;
   padding: 0; }
-
-.section-title {
-  font-weight: 300; }
-
-#section-1 h1 {
-  font-family: 'Archer-SemiboldItalic', sans-serif; }
-
-#section-2 h1 {
-  font-family: 'Archer-Book', sans-serif; }
-
-#section-3 h1 {
-  font-family: 'Archer-Semibold', sans-serif; }
-
-#section-3 h2 {
-  font-family: 'Archer-Medium', sans-serif; }
-
-#section-3 p {
-  font-family: 'Archer-Book', sans-serif; }
-
-#section-4 h1 {
-  font-family: 'Archer-SemiboldItalic', sans-serif; }
-
-#section-4 h2 {
-  font-family: 'Archer-Medium', sans-serif; }
-
-#section-4 p {
-  font-family: 'Archer-Book', sans-serif; }
-
-#section-5 h1 {
-  font-family: 'Archer-SemiboldItalic', sans-serif; }
-
-#section-5 p {
-  font-family: 'Archer-Book', sans-serif; }
-
-#footer h2 {
-  font-family: 'Archer-Bold', sans-serif; }
 
 /* =============
     Buttons
@@ -524,9 +521,16 @@ textarea {
   #section-1 > div h1 {
     color: #fff;
     text-align: center;
-    padding-top: 80px; }
+    padding-top: 80px;
+    font-size: 1.5rem;
+    text-shadow: 0px 2px 4px grey; }
+    @media (min-width: 768px) {
+      #section-1 > div h1 {
+        font-size: 2.25rem;
+        padding: 200px; } }
     @media (min-width: 1200px) {
       #section-1 > div h1 {
+        font-size: 3rem;
         padding: 200px; } }
 /* =============
     Section 2

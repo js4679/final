@@ -27,8 +27,18 @@
             color: $white;
             text-align: center;
             padding-top: 80px;
+            font-size: rem-calc(24);
+            text-shadow: 0px 2px 4px grey;
+        
+
+            @include md{
+                font-size: rem-calc(36);
+                padding: 200px;
+                
+            }
 
             @include xl{
+                font-size: rem-calc(48);
                 padding: 200px;
             }
         }
