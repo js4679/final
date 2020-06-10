@@ -19,11 +19,12 @@
             padding-left: 20px;
             padding-bottom: 20px;
             padding-top: 20px;
+            
 
             @include md {
                 align-items: center;
                 display: flex;
-                margin: 0 50px 0 0;
+                margin: 0 20px 0 0;
             }
 
             a:link,
@@ -45,6 +46,10 @@
                 }
             }
 
+        }
+
+        li#nav-logo{
+            width: 200px;
         }
     }
 

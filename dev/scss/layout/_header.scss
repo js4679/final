@@ -26,10 +26,10 @@
             text-align: center;
             background-color: $navy;
 
-
             @include md{
                 height: 0px;
-                background-position: center;
+                position: relative;
+                top:-45px;
                 
             }
             

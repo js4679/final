@@ -446,7 +446,7 @@ textarea {
       #nav-container ul li {
         align-items: center;
         display: flex;
-        margin: 0 50px 0 0; } }
+        margin: 0 20px 0 0; } }
     #nav-container ul li a:link,
     #nav-container ul li a:visited {
       color: #23315B;
@@ -462,6 +462,9 @@ textarea {
         #nav-container ul li a:hover,
         #nav-container ul li a:active {
           color: #CBD2C2; } }
+  #nav-container ul li#nav-logo {
+    width: 200px; }
+
 /* =============
     Header
 ============= */
@@ -482,7 +485,8 @@ textarea {
     @media (min-width: 768px) {
       #header > div #logo-container {
         height: 0px;
-        background-position: center; } }
+        position: relative;
+        top: -45px; } }
   #header > div #burger-container {
     color: #fff;
     text-decoration: none; }
