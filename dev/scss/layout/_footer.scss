@@ -4,12 +4,24 @@
 #footer{
     background-color: $navy;
     
+   
     
 
     >div{
 
         h2{
             text-align: center;
+            color: $white;
+        }
+
+        a:link,
+        a:visited {
+        text-align: center;
+
+        }
+    
+        a:hover,
+        a:active {
             color: $white;
         }
     }

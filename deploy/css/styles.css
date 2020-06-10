@@ -476,6 +476,12 @@ textarea {
   #footer > div h2 {
     text-align: center;
     color: #fff; }
+  #footer > div a:link,
+  #footer > div a:visited {
+    text-align: center; }
+  #footer > div a:hover,
+  #footer > div a:active {
+    color: #fff; }
 
 /* =============
     Section 1
