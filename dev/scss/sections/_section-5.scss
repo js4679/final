@@ -7,6 +7,10 @@
     background-size: cover;
     height: 525px;
 
+    @include md{
+        height: 418px;
+    }
+
     >div{
         padding-top: 130px;
         padding-bottom: 105px;
@@ -14,10 +18,28 @@
         padding-right: 20px;
 
         @include md{
-            height: 250px;
             display: grid;
             grid-template-columns: 50% 50%;
-            grid-template-areas: ". text-card";   
+            grid-template-areas: ". text-card"; 
+            
+            
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 30px;
+        }
+
+        @include xl{
+
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: ". text-card "; 
+           
+            
+            padding-top: 30px;
+            padding-right: 0px;
+            padding-left: 150px;
+            
+              
         }
 
         #text-card{
@@ -29,16 +51,48 @@
             padding: 30px 20px;
             height: 205px;
 
+            @include md{
+                height: 245px;
+            }
+
+           @include xl{
+               height: 300px;
+               width: 500px;
+           }
+
             grid-area: text-card;
 
             h1{
                 font-size: rem-calc(24);
                 line-height: rem-calc(30);
                 padding-bottom: 20px;
+
+                @include md{
+                    padding-left: 90px;
+                    padding-right: 90px;
+                }
+
+                @include xl{
+                    padding-left: 90px;
+                    padding-right: 90px;
+                    padding-top: 40px;
+                }
             }
             p{
                 font-size: rem-calc(18);
                 line-height: rem-calc(23);
+                
+                @include md{
+                    padding-top: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
+                @include xl{
+                    padding-right: 70px;
+                    padding-left: 60px;
+                    padding-top: 10px;
+                }
             }
         }
 
