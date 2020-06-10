@@ -447,35 +447,64 @@ textarea {
 ============= */
 #footer {
   background-color: #23315B;
-  background-image: url("../img/logo.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 122px;
-  padding-top: 60px;
-  padding-bottom: 30px; }
-  #footer > div h2 {
-    text-align: center;
-    color: #fff;
-    padding-top: 135px;
-    font-size: 0.875rem;
-    padding-right: 7px; }
-  #footer > div ul {
-    background-color: #23315B;
-    display: flex;
-    justify-content: center;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #footer {
+      display: grid;
+      grid-template-columns: 30% auto;
+      grid-template-areas: "logo div"; } }
+  #footer #logo {
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 170px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    font-size: 1.875rem; }
-    #footer > div ul li {
-      margin: 0 10px;
-      font-size: 2.1875rem; }
-      #footer > div ul li a:link,
-      #footer > div ul li a:visited {
-        color: #000; }
-      #footer > div ul li a:hover,
-      #footer > div ul li a:active {
-        color: #fff; }
+    grid-area: logo; }
+    @media (min-width: 768px) {
+      #footer #logo {
+        height: 180px;
+        background-position: left;
+        padding-top: 10px;
+        margin-left: 20px; } }
+    @media (min-width: 1200px) {
+      #footer #logo {
+        margin-left: 40px; } }
+  #footer > div {
+    grid-area: div; }
+    @media (min-width: 768px) {
+      #footer > div {
+        padding-top: 80px; } }
+    #footer > div h2 {
+      text-align: center;
+      color: #fff;
+      padding-top: 15px;
+      font-size: 0.875rem;
+      padding-right: 7px; }
+      @media (min-width: 768px) {
+        #footer > div h2 {
+          text-align: right;
+          padding-right: 60px; } }
+    #footer > div ul {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 10px;
+      font-size: 1.875rem; }
+      @media (min-width: 768px) {
+        #footer > div ul {
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 37px; } }
+      #footer > div ul li {
+        margin: 0 10px;
+        font-size: 2.1875rem; }
+        #footer > div ul li a:link,
+        #footer > div ul li a:visited {
+          color: #000; }
+        #footer > div ul li a:hover,
+        #footer > div ul li a:active {
+          color: #fff; }
 
 /* =============
     Section 1
