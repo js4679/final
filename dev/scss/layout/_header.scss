@@ -14,7 +14,7 @@
 
         left: 0;
         position: fixed;
-        top: 50px;
+        top: 80px;
         width: 100%;
 
         
@@ -27,11 +27,12 @@
         #logo-container{
             text-align: center;
             background-color: $navy;
+            
 
             @include md{
                 height: 0px;
                 position: relative;
-                top:-45px;
+                top:-83px;
                 
             }
             
@@ -41,8 +42,10 @@
         #burger-container{
             color: $white;
             text-decoration: none;
-            align-items: center;
             display: flex;
+            position: relative;
+            top:-35px;
+            padding-left: 30px;
             
 
             @include md {
@@ -54,6 +57,8 @@
                 font-size: rem-calc(30);
             }
         }
+
+        
 
         
     }
