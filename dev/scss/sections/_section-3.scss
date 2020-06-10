@@ -4,10 +4,11 @@
 #section-3{
     background-color: $lightgreen;
     text-align: center;
-    padding: 50px;
+    padding: 40px 100px;
     color: $darkgreen;
     height: 490px;
-    margin-bottom: 30px;
+    
+    
 
     @include md{
         height: 248px;
@@ -35,22 +36,40 @@
             padding-right: 150px;
         }
 
+        h2{
+            font-size: rem-calc(18);
+            padding-bottom: 15px;
+        }
+
+        p{
+            font-size: rem-cal(12);
+            
+        }
+
         #title{
             grid-area: title;
+
+            i{
+                font-size: rem-calc(40);
+                margin-bottom: 15px;
+            }
+            h1{
+                font-size: rem-calc(24);
+            }
         }
 
         #location-1{
-            padding: 50px;
+            padding: 40px;
             grid-area: location-1;
         }
 
         #location-2{
-            padding: 50px;
+            padding: 40px;
             grid-area: location-2;
         }
 
         #location-3{
-            padding: 50px;
+            padding: 40px;
             grid-area: location-3;
         }
 

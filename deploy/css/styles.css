@@ -563,7 +563,8 @@ textarea {
       padding-bottom: 10px;
       padding-left: 30px;
       padding-right: 30px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      font-size: 1.5rem; }
       @media (min-width: 768px) {
         #section-2 > div #specials h1 {
           margin-top: 80px; } }
@@ -586,7 +587,8 @@ textarea {
       padding-bottom: 10px;
       padding-left: 30px;
       padding-right: 30px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      font-size: 1.5rem; }
       @media (min-width: 768px) {
         #section-2 > div #contact-us h1 {
           margin-top: 80px; } }
@@ -596,10 +598,9 @@ textarea {
 #section-3 {
   background-color: #CBD2C2;
   text-align: center;
-  padding: 50px;
+  padding: 40px 100px;
   color: #707767;
-  height: 490px;
-  margin-bottom: 30px; }
+  height: 490px; }
   @media (min-width: 768px) {
     #section-3 {
       height: 248px;
@@ -616,16 +617,26 @@ textarea {
     #section-3 > div {
       padding-left: 150px;
       padding-right: 150px; } }
+  #section-3 > div h2 {
+    font-size: 1.125rem;
+    padding-bottom: 15px; }
+  #section-3 > div p {
+    font-size: rem-cal(12); }
   #section-3 > div #title {
     grid-area: title; }
+    #section-3 > div #title i {
+      font-size: 2.5rem;
+      margin-bottom: 15px; }
+    #section-3 > div #title h1 {
+      font-size: 1.5rem; }
   #section-3 > div #location-1 {
-    padding: 50px;
+    padding: 40px;
     grid-area: location-1; }
   #section-3 > div #location-2 {
-    padding: 50px;
+    padding: 40px;
     grid-area: location-2; }
   #section-3 > div #location-3 {
-    padding: 50px;
+    padding: 40px;
     grid-area: location-3; }
 
 /* =============
@@ -640,8 +651,8 @@ textarea {
   #section-4 > div {
     padding-top: 370px;
     padding-bottom: 25px;
-    padding-left: 70px;
-    padding-right: 70px; }
+    padding-left: 80px;
+    padding-right: 80px; }
     @media (min-width: 768px) {
       #section-4 > div {
         height: 250px;
@@ -654,9 +665,19 @@ textarea {
       display: inline-block;
       border-radius: 8px;
       background-color: rgba(35, 49, 91, 0.85);
-      padding: 50px 10px;
+      padding: 50px 20px;
       height: 220px;
       grid-area: text-card; }
+      #section-4 > div #text-card h1 {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        padding-bottom: 15px; }
+      #section-4 > div #text-card h2 {
+        font-size: 1.1875rem;
+        padding-bottom: 15px; }
+      #section-4 > div #text-card p {
+        font-size: 1.125rem;
+        line-height: 1.4375rem; }
 
 /* =============
     Section 5
@@ -683,12 +704,13 @@ textarea {
       display: inline-block;
       border-radius: 8px;
       background-color: rgba(35, 49, 91, 0.85);
-      padding: 50px 20px;
+      padding: 30px 20px;
       height: 205px;
       grid-area: text-card; }
       #section-5 > div #text-card h1 {
         font-size: 1.5rem;
-        line-height: 1.875rem; }
+        line-height: 1.875rem;
+        padding-bottom: 20px; }
       #section-5 > div #text-card p {
-        font-size: 0.9375rem;
+        font-size: 1.125rem;
         line-height: 1.4375rem; }
