@@ -427,6 +427,41 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  width: 50%;
+  text-align: left;
+  background-color: #CBD2C2; }
+  @media (min-width: 768px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background-color: #23315B; } }
+  #nav-container ul li {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    @media (min-width: 768px) {
+      #nav-container ul li {
+        align-items: center;
+        display: flex;
+        margin: 0 50px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #23315B;
+      text-decoration: none; }
+      @media (min-width: 768px) {
+        #nav-container ul li a:link,
+        #nav-container ul li a:visited {
+          color: #fff; } }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #fff; }
+      @media (min-width: 768px) {
+        #nav-container ul li a:hover,
+        #nav-container ul li a:active {
+          color: #CBD2C2; } }
 /* =============
     Header
 ============= */
@@ -435,9 +470,19 @@ textarea {
   position: fixed;
   top: 0;
   width: 100%; }
+  @media (min-width: 768px) {
+    #header {
+      left: 0;
+      position: fixed;
+      top: 200px;
+      width: 100%; } }
   #header > div #logo-container {
     text-align: center;
     background-color: #23315B; }
+    @media (min-width: 768px) {
+      #header > div #logo-container {
+        height: 0px;
+        background-position: center; } }
   #header > div #burger-container {
     color: #fff;
     text-decoration: none; }

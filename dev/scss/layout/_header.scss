@@ -7,14 +7,31 @@
     position: fixed;
     top: 0;
     width: 100%;
+
+
     
-    
+    @include md{
+
+        left: 0;
+        position: fixed;
+        top: 200px;
+        width: 100%;
+
+        
+    }
 
     >div{
-
+        
         #logo-container{
             text-align: center;
             background-color: $navy;
+
+
+            @include md{
+                height: 0px;
+                background-position: center;
+                
+            }
             
         }
         
