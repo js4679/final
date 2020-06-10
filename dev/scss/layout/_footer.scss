@@ -3,7 +3,13 @@
 ============= */
 #footer{
     background-color: $navy;
-    
+
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 122px;
+    padding-top: 60px;
+    padding-bottom: 30px;
    
     
 
@@ -12,17 +18,36 @@
         h2{
             text-align: center;
             color: $white;
+            padding-top: 135px;
+            font-size: rem-calc(14);
+            padding-right: 7px;
+            
         }
 
-        a:link,
-        a:visited {
-        text-align: center;
 
-        }
-    
-        a:hover,
-        a:active {
-            color: $white;
+        ul {
+            background-color: $navy;
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+            font-size: rem-calc(30);
+
+            li {
+                margin: 0 10px;
+                font-size: rem-calc(35);
+
+                a:link,
+                a:visited {
+                    color: $black;
+                }
+
+                a:hover,
+                a:active {
+                    color: $white;
+                }
+            }
         }
     }
 }

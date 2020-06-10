@@ -406,6 +406,9 @@ p {
 #section-5 p {
   font-family: 'Archer-Book', sans-serif; }
 
+#footer h2 {
+  font-family: 'Archer-Bold', sans-serif; }
+
 /* =============
     Buttons
 ============= */
@@ -472,16 +475,36 @@ textarea {
     Footer
 ============= */
 #footer {
-  background-color: #23315B; }
+  background-color: #23315B;
+  background-image: url("../img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 122px;
+  padding-top: 60px;
+  padding-bottom: 30px; }
   #footer > div h2 {
     text-align: center;
-    color: #fff; }
-  #footer > div a:link,
-  #footer > div a:visited {
-    text-align: center; }
-  #footer > div a:hover,
-  #footer > div a:active {
-    color: #fff; }
+    color: #fff;
+    padding-top: 135px;
+    font-size: 0.875rem;
+    padding-right: 7px; }
+  #footer > div ul {
+    background-color: #23315B;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-size: 1.875rem; }
+    #footer > div ul li {
+      margin: 0 10px;
+      font-size: 2.1875rem; }
+      #footer > div ul li a:link,
+      #footer > div ul li a:visited {
+        color: #000; }
+      #footer > div ul li a:hover,
+      #footer > div ul li a:active {
+        color: #fff; }
 
 /* =============
     Section 1
