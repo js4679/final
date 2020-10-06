@@ -5,8 +5,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const section2TL = gsap.timeline();
-section2TL.from("#specials h1",{duration:0.5,alpha:0,x:300})
-        .from("#contact-us h1",{duration:0.5,alpha:0,x:-300});
+section2TL.from("#specials h1",{duration:1,x:300})
+        .from("#contact-us h1",{duration:1,x:-300});
 
 
 export function section2Animation(){
