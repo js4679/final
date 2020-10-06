@@ -574,6 +574,7 @@ textarea {
     Section 1
 ============= */
 #section-1 {
+  overflow: hidden;
   margin-top: 173px; }
   @media (min-width: 768px) {
     #section-1 {
