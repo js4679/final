@@ -1,5 +1,22 @@
 import {gsap} from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-export function section2Animation (){
-    // gsap.from("#section-1 >div", {duration:2, alpha:0, y:300});
+gsap.registerPlugin(ScrollTrigger);
+
+
+const section2TL = gsap.timeline();
+section2TL.from("#specials h1",{duration:0.5,alpha:0,x:300})
+        .from("#contact-us hu",{duration:0.5,alpha:0,x:-300});
+
+
+export function section2Animation(){
+
+    ScrollTrigger.create({
+        // markers: true,
+        animation: section2TL,
+        toggleActions: "play none",
+        trigger: "#section-2",
+        start:"top, 50%",
+        end: "bottom 50%"
+    });
 }
