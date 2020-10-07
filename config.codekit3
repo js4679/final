@@ -335,7 +335,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/sections/section-1-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -628,6 +628,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/ScrollTrigger.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
