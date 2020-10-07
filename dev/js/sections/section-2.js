@@ -17,7 +17,7 @@ export function section2Animation(){
         animation: section2TL,
         toggleActions: "play",
         trigger: "#section-2",
-        start:"top",
-        end: "bottom"
+        start:"top 60%",
+        end: "bottom 60%"
     });
 }

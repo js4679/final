@@ -12,10 +12,11 @@ export function section4Animation(){
 
     ScrollTrigger.create({
         markers:true,
+        scrub: true,
         animation: section4TL,
         toggleActions: "play",
         trigger: "#section-4",
-        start:"top",
-        end: "bottom"
+        start:"top 60%",
+        end: "bottom 50%"
     });
 }
