@@ -11,11 +11,11 @@ section4TL.from("#text-card",{duration:1, alpha:0, x:-100});
 export function section4Animation(){
 
     ScrollTrigger.create({
-        
+        markers:true,
         animation: section4TL,
-        toggleActions: "play play",
+        toggleActions: "play",
         trigger: "#section-4",
-        start:"top, 50%",
-        end: "bottom 50%"
+        start:"top",
+        end: "bottom"
     });
 }

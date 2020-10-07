@@ -17,9 +17,9 @@ section3TL.from("#title h1",{duration:1, alpha:0, y:-100})
 export function section3Animation(){
 
     ScrollTrigger.create({
-        
+        markers: true,
         animation: section3TL,
-        toggleActions: "play play",
+        toggleActions: "play",
         trigger: "#section-3",
         start:"top, 50%",
         end: "bottom 50%"

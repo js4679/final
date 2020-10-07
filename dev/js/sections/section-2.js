@@ -13,10 +13,11 @@ export function section2Animation(){
 
     ScrollTrigger.create({
         markers: true,
+        scrub: true,
         animation: section2TL,
-        toggleActions: "play",
+        toggleActions: "restart none reverse none",
         trigger: "#section-2",
-        start:"top, 50%",
-        end: "bottom 50%"
+        start:"top",
+        end: "bottom"
     });
 }
