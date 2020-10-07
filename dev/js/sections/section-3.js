@@ -19,7 +19,7 @@ export function section3Animation(){
     ScrollTrigger.create({
         markers: true,
         animation: section3TL,
-        toggleActions: "play",
+        toggleActions: " none play",
         trigger: "#section-3",
         start:"top, 50%",
         end: "bottom 50%"
