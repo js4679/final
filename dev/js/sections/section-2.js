@@ -5,19 +5,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const section2TL = gsap.timeline();
-section2TL.from("#specials h1",{duration:1, alpha:0, y:100 })
-        .from("#contact-us h1",{duration:1, alpha:0, y:-100});
+section2TL.from("#specials h1",{duration:.5, alpha:0, y:100 })
+        .from("#contact-us h1",{duration:.5, alpha:0, y:-100});
 
 
 export function section2Animation(){
 
     ScrollTrigger.create({
-        markers: true,
+        // markers: true,
         scrub: true,
         animation: section2TL,
         toggleActions: "play",
         trigger: "#section-2",
         start:"top 60%",
-        end: "bottom 60%"
+        end: "bottom 80%"
     });
 }
